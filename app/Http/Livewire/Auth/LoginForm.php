@@ -15,7 +15,7 @@ final class LoginForm extends Component
 
     public string $status = '';
 
-    public function submit(SendLoginLink $action)
+    public function submit(SendLoginLink $action): void
     {
         $this->validate();
 
